@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&family=Rampart+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arsenal", sans-serif;
+  color: lig;
+}
+header {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: max-content;
+  width: 98%;
+  font-size: 24px;
+  align-self: center;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.logo .name {
+  font-size: 36px;
+  height: 100%;
+  font-weight: 600;
+}
+.logo > img {
+  width: 70px;
+  height: 70px;
+}
+
+.header-link {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+
+  color: black;
+}
+
+.header-link > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+header > div {
+  margin: 10px 20px;
+}
+
+@media (max-width: 480px) {
+  header {
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    height: 80px;
+    width: 98%;
+    align-self: center;
+    font-size: 16px;
+  }
+
+  .logo > img {
+    width: 60px;
+    height: 60px;
+  }
+  .logo > .name {
+    font-size: 24px;
+  }
+  .header-link {
+    display: flex;
+    width: 30%;
+  }
+  header > div {
+    margin: 10px 20px;
+  }
+}

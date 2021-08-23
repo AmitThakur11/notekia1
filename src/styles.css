@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&family=Rampart+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arsenal", sans-serif;
+  color: lig;
+}
+
+.App {
+  min-height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
